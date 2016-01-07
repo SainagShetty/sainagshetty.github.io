@@ -7,11 +7,12 @@
       function handleResize() {
       var h = $(window).height();
       $('.fullpage').css({'height':h+'px'});
+      $('.footer').css({'margin-top':(h/2-240)+'px'});
       }
       $(function(){
       handleResize();
 
-      $(window).resize(function(){
+      $(window).resize(function(){ 
       handleResize();
       });
       });

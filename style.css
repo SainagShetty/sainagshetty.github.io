@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body{background-color:#fff;font:normal 16px/22px Lato;color:#555;}
-p {padding-bottom:20px;}
+p {padding-bottom:20px;font-size: 20px;}
 a:hover{text-decoration: none;}
 .clearfix:after {
 	content:".";
@@ -22,7 +22,7 @@ html[xmlns] .clearfix {
 h1,h2,h3,h4,h5,h6{font-family: Lato;margin: 0;padding: 0;}
 h1{font-weight:300;font-size: 60px;line-height: 80px;}
 h2{font-weight:300;font-size: 40px;line-height:38px;margin-bottom:80px;}
-h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
+h3{font-size: 25px;font-weight:600;margin-bottom:40px;}
 
 .spacer{padding: 100px 0;}
 .center{text-align: center; background: url(assets/bottom-line.png) center bottom no-repeat; padding: 50px; }
@@ -41,41 +41,102 @@ h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 .header a.btn{color: #fff;border: 1px solid #fff; padding: 10px 25px;text-decoration: none;border-radius: 0; margin-top: 25px;margin-right: 25px; text-transform: uppercase;font-size:16px;}
 .header a.btn:hover{background:rgba(0,0,0,0.5);transition: all 0.5s ease; }
 
-.connect-icon{text-align: right;}
-.connect-icon a{float: left;margin-left: 10px;}
-.connect-icon a:hover{opacity: 0.5;transition: all 0.5s ease;}
 
-.connect-icon a.behance{margin-top: -10px;}
-.prof-links{margin: 250px 0 50px 0;}
-
-
-.portfolio ul li{position: relative;}
-.portfolio ul li .overlay{display: none;position: absolute;top: 0; right: 0; left: 0; bottom: 0; background:rgba(0,0,0,0.5); margin: 7px;}
-.portfolio ul li:hover .overlay{display: block;}
-.portfolio ul li .overlay span{position: absolute;width: 100%;text-align: center;top: 50%;}
-.portfolio ul li .overlay span a{border: 1px solid #fff;width: auto;display: inline-block;padding: 8px 20px;color: #fff;background: rgba(0,0,0,0.6);letter-spacing: 2px;word-spacing: 5px;}
-.portfolio ul li .overlay span a:hover{background: rgba(0,0,0,0.8);}
-
-
-
-.testimonials-bg{background:url(images/testimonial-bg.jpg) center fixed #000;background-size:cover;}
-.testimonials{background:rgba(0,0,0,0.9);color: #fff;}
-.testimonials p{font-size: 26px;font-weight: 300;line-height: 35px;padding: 0 200px;}
-
-#carousel-testimonials .arrow{position: absolute;color: #fff;top: 12%;background:none;font-size:35px;: }
-#carousel-testimonials .arrow.left{left: 0;}
-#carousel-testimonials .arrow.right{right: 0;}
-
-
-.footer {	background-color:#000;	color:#666;}
 
 .toTop{position: fixed; bottom: 20px; right: 20px;color: #fff; font-size: 50px;padding:0 10px;background: rgba(0,0,0,0.5);}
 .toTop:hover{opacity: 0.5;color: #fff;transition: all 0.5s ease;}
 
 .contact-form input,.contact-form textarea{margin-bottom: 15px;font-size: 18px;height: auto;padding: 15px;font-weight: 300;border-radius: 0;}
 .contact-form input.btn{width: 100%;background-color: #333;color: #fff; font-size: 23px;border: none;}
+ul.social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul.social li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 20px 5px;
+    vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: ;
+}
+a:hover,
+a:visited {
+  color: ;
+}
 
 
+ul.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul.social li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin: 20px 5px;
+  vertical-align: top;
+}
+ul.social li a {
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-indent: -9999px;
+  border: none !important;
+  font-size: 14px;
+  text-align: center;
+}
+ul.social li a:hover {
+  background: transparent !important;
+}
+ul.social li a:hover img {
+  height: 30px !important;
+  margin-bottom: 25px;
+}
+ul.social li.link-twitter a {
+  background: url(images/icon_twitter.svg) no-repeat center 0px;
+  background-size: 37px;
+  color: #28aae1 !important;
+}
+ul.social li.link-github a {
+  background: url(images/icon_github.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #000000 !important;
+}
+ul.social li a:hover {
+  text-indent: 0;
+}
+ul.social li.link-instagram a {
+  background: url(images/icon_instagram.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #326189 !important;
+}
+ul.social li.link-mail a {
+  background: url(images/icon_mail.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #dd4951 !important;
+}
+ul.social li.link-linkedin a {
+  background: url(images/icon_linkedin.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #005CFF !important;
+}
+ul.social li.link-facebook a {
+  background: url(images/icon_facebook.svg) no-repeat center 0px;
+  background-size: 37px;
+  color: #005CFF !important;
+}
+#footer{
+    margin-top: 120px;
+}
 @media (max-width: 1200px){
 		h1{font-size: 50px;line-height: 70px;}
 		h2{font-size: 35px;margin-bottom: 50px;}
