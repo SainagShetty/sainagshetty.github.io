@@ -13,7 +13,7 @@
     padding: 0;
 }
 
-.stars, .twinkling, .clouds {
+.stars{
   position:absolute;
   top:0;
   left:0;
@@ -29,7 +29,7 @@
   z-index:-1 !important;
 }
 
-body{font:normal 16px/22px Fertigo;color:#555;}
+body{font:normal 16px/22px Fertigo;color:#555; background-color: #f7484e;}
 p {padding-bottom:20px;font-size: 20px;}
 a:hover{text-decoration: none;}
 html[xmlns] .clearfix {
@@ -40,7 +40,7 @@ html[xmlns] .clearfix {
 }
 h1 {
     font-family: "Manus",Arial,sans-serif;
-    font-size: 130px !important;
+    font-size: 116px !important;
     line-height: 115px !important;
     font-weight: normal !important;
 }
@@ -69,6 +69,7 @@ h3{font-size: 25px;font-weight:600;margin-bottom:40px;}
 }
 .bk{
     height:100vh;
+			border-right: 1px solid #f7484e;
 }
 ul.social {
     list-style: none;
@@ -156,7 +157,9 @@ ul.social li.link-facebook a {
   background-size: 37px;
   color: #005CFF !important;
 }
-
+.about{
+		border-left: 1px solid #f7484e;
+}
 @media (max-width: 1200px){
 		h1{font-size: 50px;line-height: 70px;}
 		h2{font-size: 35px;margin-bottom: 50px;}
@@ -171,7 +174,13 @@ ul.social li.link-facebook a {
 }
 
 @media only screen and (max-width: 500px) {
-    .about{margin-top: 50px;}
+    .about{
+			margin-top: 50px;
+			border-left: 0px solid #f7484e;
+		}
+		.container{
+			border-right: 0px solid #f7484e;
+		}
 		p{font-size: 15px;}
 		.fo{margin-left: 25%;}
 		ul.social li {
