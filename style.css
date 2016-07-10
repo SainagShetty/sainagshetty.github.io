@@ -29,8 +29,13 @@
   z-index:-1 !important;
 }
 
-body{font:normal 16px/22px Fertigo;color:#555; background-color: #f7484e;}
-p {padding-bottom:20px;font-size: 20px;}
+body{font:normal 16px/22px Fertigo;color:#555; background-color: #f7484e;-webkit-font-smoothing: antialiased;}
+p {
+	font-size: 24px;
+}
+.disp {padding-bottom:20px;
+	font-size: 24px;
+}
 a:hover{text-decoration: none;}
 html[xmlns] .clearfix {
 	display:block;
