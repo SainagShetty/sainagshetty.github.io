@@ -57,7 +57,8 @@ h5 { font-size: 11pt }
 h4 { font-size: 12pt }
 h3 { font-size: 13pt }
 h2 { font-size: 14pt }
-h1 { font-size: 16pt }
+h1 { font-size: 23pt;
+      text-align: center; }
 blockquote {padding: 10px; border: 1px #DDD dashed }
 a img {border: 0}
 .pb {height: 1px}
@@ -155,17 +156,18 @@ body {
   padding: 0;
 }
 div.outer-container {
-  font-family: "Lucida Grande",Arial;
+  font-family: "Constantia",Arial;
   color: #232;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
+  line-height: 22px;
   padding: 20px 0px;
   width: 100%;
 }
 div.container {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  width: 48em;
+  width: 60em;
   margin: 0px auto;
   background: white;
   padding: 10px 20px;
