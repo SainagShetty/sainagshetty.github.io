@@ -3,9 +3,11 @@ var $div = document.getElementById("gradient");
 
 // rgb vals of the gradients
 var gradients = [
-  { start: [67,202,162], stop: [53,165,159] },   
-  { start: [53,165,159], stop: [40,132,160] },
-  { start: [40,132,160], stop: [26,26,157] },
+  { start: [255,0,0], stop: [240, 64, 64] },   
+  { start: [240, 64, 64], stop: [171,173,172] },
+  { start: [171,173,172], stop: [203,235,238] },
+  { start: [203,235,238], stop: [151,202,239]},
+  { start: [151,202,239], stop: [67,202,162]},
 
 ]; 
 // how long for each transition
